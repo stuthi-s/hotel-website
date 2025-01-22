@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Didot";
+    color: #444343;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #3f3f3f;
+    color: #ffffffdb;
+    padding: 15px 20px;
+  }
+  
+  header .logo {
+    font-family: "Didot", serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  .menu-checkbox {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  
+  .menu-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #ffffffdb;
+    font-size: 16px;
+  }
+  
+  header nav ul li a:hover {
+    color: #f4a261;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .hero .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero .content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero .content p {
+    font-size: 1rem;
+    margin: 15px 0;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #e76f51;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  main p {
+    font-size: 1rem;
+    margin: 15px auto;
+    max-width: 800px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1.5 rem;
+  }
+  
+  .booking-section {
+    text-align: center; 
+    margin: 40px 0; 
+  }
+  
+  .booking-section .booking-button button {
+    background-color:#f4a261; 
+    color: #fff; 
+    font-size: 18px; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .booking-section .booking-button button:hover {
+    background-color: #e76f51;
+    transform: scale(1.05); 
+  }
+  
+  footer {
+    background-color: #33333386;
+    color: #ffffffdb;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  footer .newsletter {
+      width: 300px; 
+      margin: 20px auto; 
+      padding: 15px;
+    }
+  
+  footer .newsletter h2 {
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+  
+  .email-input {
+    width: 90%;
+    padding: 8px; 
+    font-size: 14px; 
+    margin-bottom: 10px;
+  }
+  
+  footer .newsletter button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #f29040;
+    color: #ffffffdb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer .newsletter button:hover {
+    background-color: #e46141;
+  }
+  footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f4a261;
+    font-size: 1.2rem;
+  }
+  footer .social-links a:hover {
+    color: #e76f51;
+  }
+  
+  @media screen and (max-width: 780px) {
+    header nav ul {
+      flex-direction: column;
+    }
+  
+    header nav ul li {
+      margin: 10px 0;
+    }
+  
+    .hero img {
+      width: 90%;
+      margin: 0 auto 10px;
+    }
+  
+    main p {
+      font-size: 0.9rem;
+    }
+  
+    footer .newsletter input[type="email"] {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  footer .newsletter input[type="email"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  footer .social-links a {
+    margin: 5px 0;
+    flex-direction: column;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .booking-section .booking-button button {
+    font-size: 16px; 
+    padding: 10px 20px; 
+    }
